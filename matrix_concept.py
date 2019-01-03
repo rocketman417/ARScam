@@ -6,7 +6,8 @@ z-axis = arbitrary third dimension for depth purposes
 
 for website matrices: Bottom number is the COLUMN, top number is the ROW
 
-If problems happen, we may have to recalculate the homography matrix for each frame
+The p_guitar value should be defined within each fret function
+The homography matrix will likely need to be recalculated for each frame in the feed
 """
 #use actual coordinate addresses (these definitions are for sample purposes)
 #each of these should ideally be an ordered pair or 3-d coordinate
@@ -25,7 +26,6 @@ z_vals = [0, 0, 1]
 
 homography_matrix = [x_vals, y_vals, z_vals]
 
-###This part will iterate for each frame in the video###
 #length = neck length
 #width = neck width
 #fret_length = length distance to fret from p1
