@@ -6,7 +6,7 @@ z-axis = arbitrary third dimension for depth purposes
 
 for website matrices: Bottom number is the COLUMN, top number is the ROW
 
-If problems, happen, we may have to recalculate the homography matrix for each frame
+If problems happen, we may have to recalculate the homography matrix for each frame
 """
 #use actual coordinate addresses (these definitions are for sample purposes)
 #each of these should ideally be an ordered pair or 3-d coordinate
